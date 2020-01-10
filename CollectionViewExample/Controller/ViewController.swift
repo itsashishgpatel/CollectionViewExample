@@ -45,7 +45,7 @@ class ViewController: UIViewController, UICollectionViewDataSource,UICollectionV
         cell.imgLbl.clipsToBounds = true // needed because without this radius effect wont work
         
 //        cell.layer.cornerRadius = 25  // corner radius for Table View Cell
-        cell.layer.borderColor = UIColor.gray.cgColor
+        cell.layer.borderColor = UIColor.orange.cgColor
         cell.layer.borderWidth = 5
         cell.backgroundColor = UIColor.black
         
